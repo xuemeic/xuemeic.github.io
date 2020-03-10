@@ -1,0 +1,200 @@
+/* myStyle.css */
+:root{
+        --verydarkgreen: rgb(20,60,20);
+        --lightgreen: rgb(210,230,210);
+        --whitegreen: rgb(238, 242, 237);
+    }
+    body{
+        
+        color:black;
+        color:var(--verydarkgreen);
+        
+        background-color: var(--lightgreen);
+    }
+   h1 {
+      color:orange;
+       font-size: 30px;
+       font-weight: 700;
+       font-family: monospace;
+       text-align: center;
+       margin-bottom: 40px;
+    
+    }
+    h2 {
+      color:orange;
+       font-size: 20px;
+       font-family: monospace;
+       text-align: left;
+        margin-top:20px;
+        margin-bottom: 10px;
+    
+    }
+    h3 {
+      color:orange;
+       font-size: 16px;
+       font-family: monospace;
+       text-align: left;
+        margin-top:10px;
+        margin-bottom: 5px;
+    
+    }
+table{
+    border-width:1px;
+    border-style: solid;
+    border-collapse: collapse;
+    margin:20px 20px 20px 10px;
+}
+br{
+    line-height: 150%;
+}
+td,th{
+    border-width:1px;
+    border-style:solid;
+    padding:4px;
+}
+  
+    p{
+        
+        font-size: 16px;
+        padding-bottom:5px;
+    }
+    hr{
+        border-color: var(--verydarkgreen);
+        background-color:var(--verydarkgreen);
+        color:var(--verydarkgreen);
+        border-width: 1px;
+        margin-top:0px;
+    }
+    ul {
+        list-style-type:disc;
+        margin: 0;
+        padding: 0px 0px 0px 17px;
+        
+    }
+li{
+    font-size: 16px;
+    margin:5px;
+}
+   nav {
+        margin: 0;
+        padding: 0;
+        background-color:var(--verydarkgreen);
+        
+    }
+    button-nav {
+        display: inline;
+        
+        background-color: var(--verydarkgreen);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 4px;
+        
+        
+    
+    }
+    button-nav a{
+        color:var(--whitegreen);
+        font-size:16px;
+        
+    }
+    .active {
+       background-color:orange;
+        border-color:orange;
+}
+    .active a:hover{
+        color: var(--verydarkgreen);
+    }
+    
+    button{
+        display: inline;
+        border-style:solid;
+        border-color:var(--verydarkgreen);
+        border-width: 1px;
+        border-radius: 4px;
+        background: var(--lightgreen);
+        width:auto;
+        padding:2px;
+        font-size: 16px;
+        font-family: monospace;
+        margin-top:2px;
+        
+    }
+    
+    a{
+        padding: 0px;
+        margin:0px;
+        color: var(--verydarkgreen);
+        display: inline;
+        text-decoration: none;
+        
+        
+    }
+    a:hover{
+        color:orange;
+    }
+    
+    
+    
+    .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .mainbox {
+    border-style: solid;
+    border-color: var(--whitegreen);
+      border-radius: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+      border-top-width:1px;
+    text-align: left;
+    background-color: var(--whitegreen);
+    margin-left: 76px;
+    margin-right:76px;
+      margin-bottom: 36px;
+      margin-top: 26px;
+      padding-top:0px;
+      padding-left:15px;
+      padding-right:15px;
+      padding-bottom:25px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+    .text-box-container {
+    background-color: var(--whitegreen);
+      border-style:none;
+      
+    padding: 5px;
+      
+      display: flex;
+        
+      align-items:baseline;
+        align-content: center;
+        justify-content:space-around;
+      font-family: monospace;
+      text-align: center;
+      font-size:18px;
+      font-weight: 600;
+  }
+
+  .text-box {
+    background-color: var(--whitegreen);
+      border-style:none;
+      
+      border-width: 2px;
+      
+    padding: 10px 10px 5px 10px;
+      margin:10px;
+      
+      width:auto;
+      display: block;
+      flex-direction: row;
+      justify-content:space-around;
+      align-items:center;
+      font-family: monospace;
+      text-align: left;
+      font-size:16px;
+      font-weight: 400;
+  }
+  
+
+  
